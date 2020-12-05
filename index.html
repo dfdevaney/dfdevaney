@@ -12,25 +12,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <div class="jumbotron text-center" style="margin-bottom:auto">
-        <h1>Portfolio for Doug DeVaney</h1>
-        <p>What a Catastrophie!</p> 
-        <p>... at least the links work.</p>
+        <h1 style="background-color:blue; color:yellow;">Portfolio for Doug DeVaney</h1>
       </div>
 </head>
 
 <body>
     <nav class="navbar nav-fill navbar-expand-sm navbar-light" style="background-color:lightblue;">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Home</a>
         <div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="https://www.linkedin.com/in/doug-devaney-868949185/" target="_blank">Linkedin</a>
+          <ul class="navbar-nav nav justify-content-center">
+            <li class="nav-item"><button type="button" class="btn btn-primary" a href="https://www.linkedin.com/in/doug-devaney-868949185/" target="_blank">LinkedIn</button>
+              <!-- <a href="https://www.linkedin.com/in/doug-devaney-868949185/" target="_blank">Linkedin</a> -->
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/dfdevaney" target="_blank">GitHub</a>
+            <li class="nav-item"><button type="button" class="btn btn-success" a href="https://github.com/dfdevaney" target="_blank">GitHub</button>
+              <!-- <a class="nav-link" href="https://github.com/dfdevaney" target="_blank">GitHub</a> -->
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://formspree.io/" target="_blank">Formspree</a>
+            <li class="nav-item"><button type="button" class="btn btn-danger" a href="https://formspree.io/" target="_blank">Formspree</button>
+              <!-- <a class="nav-link" href="https://formspree.io/" target="_blank">Formspree</a> -->
             </li>
           </ul>
         </div>  
@@ -38,23 +36,44 @@
 
 
 <div class="container">
-  <h2>One of the best places:</h2>
+  <h2>I grew up in South Dakota:</h2>
   <img class="img-responsive" src="../dfdevaney/assets/Spearfish_Canyon.jpg" alt="Spearfish_Canyon"> 
+  <p>This scene is from Spearfish Canyon (on the West side of the State). It's a beautiful place that enjoy to return to whenever I can.</p>
 </div>
 
-<div class="container">
+<div class="container" style=background-color:rgb(71,140,231)>
   <div class="jumbotron">
-    <h1>About Me</h1>      
-    <p>I Had no idea putting together another web page would be such a pain.</p>
+    <h1>About Me
+      <div class="item">
+        <img src="../dfdevaney/assets/Profile.jpg" alt="Profile" style="width:25%;">
+                <img src="../dfdevaney/assets/SDSU_Jackrabbit.png" alt="SDSU_Jackrabbit" style="width:25%;">
+                <img src="../dfdevaney/assets/Eleven_Fifty_logo_red.webp" alt="Eleven_Fifty_logo_white" style="width:25%;">
+      </div>
+      <div class="item">
+        <!-- <img src="../dfdevaney/assets/SDSU_Jackrabbit.png" alt="SDSU_Jackrabbit" style="width:25%;"> -->
+      </div>
+    </h1>      
+    <p>Originally from Sioux Falls. I attended South Dakota State University in Brookings, SD. Started out in Engeneering, but eventually gravitated more to Mathematics.
+      All the while enjoying envolvement with The Pride of Dakotas Marching Band. I recieved a Bachelor of Science in General Studies, Emphasis in 
+      Mathematics, Humanities, & Engineering, with a Minor in Mathematics & Religion. I've always enjoyed computers, & even though I had taken a few
+      programming classes at SDSU (C+ & Fortran) I had never really tried programming. After hearing about Eleven Fifty, I felt it was a good opportunity to try it out.
+      Even though the challenge was high, I really enjoyed the things accomplished while learning C#, HTML, & CSS, as well as the various components that go along with those languages.
+    </p>
     <P>Here's a Trail API my Team put together for Eleven Fifty Blue Badge:</P>
     <li class="nav-item">
       <a class="nav-link" href="https://github.com/standridgedevelopment/TrailAid.git" target="_blank">GitHub Link: Trail-AID API</a>
     </li>
+    <p>And here is a Web MVC I put together for Eleven Fifty Red Badge:</p>
+    <li class="nav-item">
+      <a class="nav-link" href="https://gamestoredwebmvc20201125091853.azurewebsites.net/" target="_blank">GameStored MVC on Azure</a>
+    </li>
+    <p>It's still a work-in-progress, & I plan on continued updates even after my time at Eleven Fifty has ended.</p>
   </div>
 </div>
 
 <div class="container">
-  <h2>Here I'll try to make a Carousel with Pictures about me:</h2>  
+  <h2>Here are some highlights of my family from the last year:</h2>  
+  <p>In December of 2019, my Wife & I were blessed with our Daughter. She's pretty great, & a lot of my motivation for doing better is with her in mind.</p>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -75,7 +94,10 @@
         <img src="../dfdevaney/assets/Garnet_Grab.jpg" alt="Garnet_Grab" style="width:100%;">
       </div>
       <div class="item">
-        <img src="../dfdevaney/assets/Garnet_Hmm.jpg" alt="Garnet_Hmm" style="width:100%;">
+        <img src="../dfdevaney/assets/Family02.jpg" alt="Family02" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="../dfdevaney/assets/Cleo_Garnet.jpg" alt="Cats02" style="width:100%;">
       </div>
     </div>
 
